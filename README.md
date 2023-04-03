@@ -40,4 +40,6 @@ set the above environment variables .
 
 run the produce_main.py to produce the data into confluent kafka topic.
 
-run the consumer_main.py to consume the data in parallel from kafka topic.
+run the consumer_main.py to consume the data in parallel from kafka topic. 
+
+Data get consumed row by row from kafka topic to the mongo db database collection and it can be monitored, how the data inflow happening to the mongo db.
